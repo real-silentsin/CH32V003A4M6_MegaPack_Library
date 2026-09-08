@@ -1,7 +1,5 @@
 # CH32V003A4M6_MegaPack_Library
 
-# CH32V003A4M6_MegaPack_Library
-
 MEGAPACK library CH32V003 (SOP16)
 
 Without connection to the BB (with transport and X communication protocol disabled), the code takes up:

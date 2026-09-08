@@ -1,5 +1,7 @@
 # CH32V003A4M6_MegaPack_Library
 
+# CH32V003A4M6_MegaPack_Library
+
 MEGAPACK library CH32V003 (SOP16)
 
 Without connection to the BB (with transport and X communication protocol disabled), the code takes up:
@@ -19,7 +21,8 @@ The library uses:
 • plays sound from protocol files, RAM buffers, and a contiguous area
 • it's best to use the "contiguous area" for playing long sounds
 
-• standard for hardware SPI
+• UART X protocol with CRC and file system (by fileID)
+• standard for software SPI
 • no support for hardware SPI (no in chip)
 • all settings in <app_config.h>
 • dynamic control menus
@@ -34,6 +37,12 @@ Supported hardware:
 • I2C EEROM 24С02..24С64
 • Sound
 • Infrared port (NEC protocol)
+
+Library audio standard: 8000Hz samples, Headerless, Unsigned data.
+
+(c) silentsin
+03/08/2026
+
 
 Library audio standard: 8000Hz samples, Headerless, Unsigned data.
 

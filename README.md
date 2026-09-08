@@ -1,0 +1,1 @@
+# CH32V003A4M6_MegaPack_Library

@@ -43,8 +43,3 @@ Library audio standard: 8000Hz samples, Headerless, Unsigned data.
 (c) silentsin
 03/08/2026
 
-
-Library audio standard: 8000Hz samples, Headerless, Unsigned data.
-
-(c) silentsin
-03/08/2026

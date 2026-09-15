@@ -89,24 +89,6 @@ typedef union {
     uint8_t full_buffer[XPROTO_MAX_DATA_SIZE];  // Весь пакет целиком
 } packet_t;
 #pragma pack(pop)
-// ----------------------------------------------------------------------------
-/* // Структура пакета команды
-#pragma pack(push, 1)
-typedef union {
-    struct {
-        union {
-            uint32_t id;
-            uint8_t id_raw[4];  // Побайтовый доступ к ID
-        };
-        uint16_t cmd;
-        union {
-            uint32_t param;
-            uint8_t param_raw[4];  // Побайтовый доступ к параметру
-        };
-    };
-    uint8_t raw[10];  // Весь пакет целиком (4 + 2 + 4 = 10 байт)
-} cmd_pack_t;
-#pragma pack(pop) */
 // -----------------------------------------------------------------------------
 // Структура пакета команды (расширенная)
 #pragma pack(push, 1)
